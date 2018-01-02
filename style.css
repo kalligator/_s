@@ -543,11 +543,11 @@ a:hover, a:active {
 
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
+	display: block;
 	left: auto;
 }
 
 .main-navigation li {
-	float: left;
 	position: relative;
 }
 
@@ -567,7 +567,7 @@ a:hover, a:active {
 		display: none;
 	}
 	.main-navigation ul {
-		display: block;
+		display: flex;
 	}
 }
 
