@@ -89,17 +89,18 @@
 
 	.site-main & {
 		margin: 0 0 1.5em;
-		overflow: hidden;
+	}
+
+	.nav-links {
+		display: flex;
 	}
 
 	.nav-previous {
-		float: left;
-		width: 50%;
+		flex: 1 0 50%;
 	}
 
 	.nav-next {
-		float: right;
-		text-align: right;
-		width: 50%;
+		text-align: end;
+		flex: 1 0 50%;
 	}
 }
