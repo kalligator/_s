@@ -42,7 +42,7 @@ get_header(); ?>
 
 	endif; ?>
 
-	</main><!-- #primary -->
+	</main><!-- #main -->
 
 <?php
 get_sidebar();
